@@ -1,5 +1,4 @@
 import { Folder, Award, Briefcase } from "lucide-react"
-import Image from "next/image"
 import Link from "next/link"
 
 import { Navbar } from "@/components/navbar"
@@ -117,7 +116,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-purple-500 to-blue-500 blur-md transform -translate-x-2 -translate-y-2" />
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500 to-pink-500 blur-md transform translate-x-2 translate-y-2" />
                 <div className="absolute inset-0 rounded-xl border-2 border-background" />
-                <Image
+                <img
                   src="/port-photo.jpg"
                   alt="Sahithi Madas"
                   width={400}
