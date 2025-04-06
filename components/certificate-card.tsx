@@ -71,26 +71,23 @@ export function CertificateCard({ title, issuer, date, link, image, additionalIm
       </div>
 
       <AnimatePresence>
-        {isExpanded && additionalImages && additionalImages.length > 0 && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            className="border-t border-border overflow-hidden"
-          >
-            <div className="p-4 space-y-4">
-              {additionalImages.map((img, i) => (
-                <div key={i} className="space-y-2">
-                  <p className="text-sm font-medium text-foreground">{img.title}</p>
-                  <div className="relative h-[200px] w-full overflow-hidden rounded-lg">
-                    <Image src={img.url || "/placeholder.svg"} alt={img.title} fill className="object-contain" />
-                  </div>
-                </div>
-              ))}
-            </div>
-          </motion.div>
-        )}
+        {additionalImages.map((img, i) => (
+  <div key={i} className="space-y-2">
+    <p className="text-sm font-medium text-foreground">{img.title}</p>
+    {img.url.endsWith(".pdf") ? (
+      <iframe
+        src={img.url}
+        className="w-full h-[400px] rounded-lg border"
+        title={img.title}
+      />
+    ) : (
+      <div className="relative h-[200px] w-full overflow-hidden rounded-lg">
+        <Image src={img.url || "/placeholder.svg"} alt={img.title} fill className="object-contain" />
+      </div>
+    )}
+  </div>
+))}
+
       </AnimatePresence>
     </motion.div>
   )
