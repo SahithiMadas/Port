@@ -147,8 +147,7 @@ export default function Home() {
 
             <SectionTransition delay={0.3}>
               <StatCard
-                icon={<Folder className="h-6 w-6 text-blue-500" />}
-                count={4}
+                icon={<Folder className="h-6 w-6 text-blue-500" />} count={4}
                 title="TOTAL PROJECTS"
                 description="Innovative data solutions crafted"
                 href="#projects"
