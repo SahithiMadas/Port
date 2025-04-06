@@ -55,44 +55,10 @@ export function CertificateCard({ title, issuer, date, link, image, additionalIm
               <span>View Certificate</span>
             </Link>
           )}
-
-          {additionalImages && additionalImages.length > 0 && (
-            <button
-              onClick={() => setIsExpanded(!isExpanded)}
-              className="inline-flex items-center gap-1 rounded-lg border border-border bg-background px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted"
-            >
-              <span>{isExpanded ? "Hide Details" : "Show Details"}</span>
-              <ChevronDown
-                className={`h-3.5 w-3.5 transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`}
-              />
-            </button>
-          )}
         </div>
       </div>
 
-      <AnimatePresence>
-        {additionalImages.map((img, i) => (
-  <div key={i} className="space-y-2">
-    <p className="text-sm font-medium text-foreground">{img.title}</p>
-    {img.url.toLowerCase().includes(".pdf") ? (
-      <iframe
-        src={img.url}
-        className="w-full h-[600px] md:h-[700px] rounded-lg border"
-        title={img.title}
-      />
-    ) : (
-      <div className="relative h-[200px] w-full overflow-hidden rounded-lg">
-        <Image
-          src={img.url || "/placeholder.svg"}
-          alt={img.title}
-          fill
-          className="object-contain"
-        />
-      </div>
-    )}
-  </div>
-))}
-</AnimatePresence>
+      
     </motion.div>
   )
 }
