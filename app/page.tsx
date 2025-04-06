@@ -387,7 +387,7 @@ export default function Home() {
             />
 
             <ExperienceCard
-              title="Data Engineer Student Intern"
+              title="Data Analyst, Student Intern"
               company="New York State – Department of Health (Environment Protection)"
               location="Glens Falls, New York"
               period="May 2024 - August 2024"
