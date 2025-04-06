@@ -555,10 +555,11 @@ export default function Home() {
               title="Introduction to Machine Learning"
               issuer="AWS"
               date="April 2024"
+              link="https://sahithim.netlify.app/google-analytics-academy-certificate.pdf"
               additionalImages={[
                 {
                   title: "Intro to ML - AWS Certificate",
-                  url: "/placeholder.svg?height=400&width=600",
+                  url: "https://sahithim.netlify.app/google-analytics-academy-certificate.pdf",
                 },
               ]}
               index={6}
