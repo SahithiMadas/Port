@@ -524,8 +524,7 @@ export default function Home() {
               title="Becoming AWS Cloud Practitioner"
               issuer="AWS Digital Training"
               date="March 2025"
-              link="https://sahithim.netlify.app/acp-p1-certificate.pdf"
-              link="https://sahithim.netlify.app/acp-p2-certificate.pdf"
+              link="https://sahithim.netlify.app/acp-p1-p2-certificate.pdf"
               index={3}
             />
 
