@@ -121,7 +121,7 @@ export default function Home() {
                   alt="Sahithi Madas"
                   width={400}
                   height={400}
-                  className="h-full w-full rounded-xl object-cover"
+                  className="h-full w-full rounded-xl object-cover z-10 relative"
                 />
               </div>
             </SectionTransition>
