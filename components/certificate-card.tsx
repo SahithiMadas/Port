@@ -46,7 +46,7 @@ export function CertificateCard({ title, issuer, date, link, image, additionalIm
         <div className="flex flex-wrap items-center gap-3">
           {link && (
             <Link
-              href={/google-analytics-academy-certificate.pdf}
+              href={link}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 rounded-lg border border-border bg-background px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:bg-muted"
