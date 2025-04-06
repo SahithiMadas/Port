@@ -27,6 +27,10 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
+  reactStrictMode: true,
+  images: {
+    unoptimized: true, // add this
+  },
 }
 
 if (userConfig) {
