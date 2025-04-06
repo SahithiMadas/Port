@@ -75,23 +75,24 @@ export function CertificateCard({ title, issuer, date, link, image, additionalIm
   <div key={i} className="space-y-2">
     <p className="text-sm font-medium text-foreground">{img.title}</p>
     {img.url.toLowerCase().includes(".pdf") ? (
-  <iframe
-    src={img.url}
-    className="w-full h-[600px] md:h-[700px] rounded-lg border"
-    title={img.title}
-  />
-) : (
-  <div className="relative h-[200px] w-full overflow-hidden rounded-lg">
-    <Image
-      src={img.url || "/placeholder.svg"}
-      alt={img.title}
-      fill
-      className="object-contain"
-    />
+      <iframe
+        src={img.url}
+        className="w-full h-[600px] md:h-[700px] rounded-lg border"
+        title={img.title}
+      />
+    ) : (
+      <div className="relative h-[200px] w-full overflow-hidden rounded-lg">
+        <Image
+          src={img.url || "/placeholder.svg"}
+          alt={img.title}
+          fill
+          className="object-contain"
+        />
+      </div>
+    )}
   </div>
-)}
-
-  </AnimatePresence>
+))}
+</AnimatePresence>
     </motion.div>
   )
 }
