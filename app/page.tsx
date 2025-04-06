@@ -550,7 +550,7 @@ export default function Home() {
               additionalImages={[
                 {
                   title: "Google Analytics Academy Certificate",
-                  url: "/placeholder.svg?height=400&width=600",
+                  url: "/google-analytics-academy-certificate.pdf",
                 },
               ]}
               index={5}
