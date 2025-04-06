@@ -549,6 +549,12 @@ export default function Home() {
               date="August 2023"
               link="https://sahithim.netlify.app/google-analytics-academy-certificate.pdf"
               index={5}
+              additional Images={[
+                {
+                  title: "Google Analytics Certificate",
+                  url: "https://sahithim.netlify.app/google-analytics-academy-certificate.pdf",
+                },
+              ]}
             />
 
             <CertificateCard
