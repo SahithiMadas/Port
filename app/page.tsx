@@ -395,9 +395,9 @@ export default function Home() {
               location="Glens Falls, New York"
               period="May 2024 - August 2024"
               description={[
-                "Developed a Data Integrity Validation Framework leveraging SQL-based anomaly detection to automate quality checks across 10000+ Prescription Monitoring Program (PMP) records, improving data accuracy by 35% and enhancing policy-driven decision-making.",
-                "Engineered an Interactive Health Insights Platform by designing 15+ dynamic Tableau dashboards, integrating real-time SQL-based analytics.",
-                "Built an Automated Comparative Analytics Engine to track statewide PDMP trends across 62 counties, accelerating stakeholder insights.",
+                "Processed and analyzed large-scale datasets (10,000+ records) through SQL-driven ETL pipelines to ensure data integrity and derive relevant health indicators for regulatory evaluation.",
+                "Led the design and deployment of a multi-dashboard analytics platform using Tableau to visualize health and environmental metrics across New York counties, streamlining public health reporting workflows by 40%.",
+                "Developed a dynamic prototype dashboard to model geographic disparities in health trends, enhancing the department’s ability to plan region-specific environmental interventions and compliance assessments.",
                 "Designed an SQL-Driven Data Cleansing Pipeline to enhance data reliability, automating the detection and correction of spurious transactions, improving dataset completeness by 30% and reducing manual intervention in audits.",
               ]}
               index={1}
