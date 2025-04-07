@@ -35,7 +35,7 @@ export default function Home() {
               </h1>
 
               <div className="mb-6 text-xl font-medium text-muted-foreground sm:text-2xl">
-                <TypingEffect texts={["Data Engineer Intern", "Data Science Enthusiast"]} />
+                <TypingEffect texts={["Data Engineer Intern", "Data Science Enthusiast", "Machine Learning Practitioner"]} />
               </div>
 
               <p className="mx-auto mb-8 max-w-2xl text-muted-foreground">
