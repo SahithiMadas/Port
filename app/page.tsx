@@ -379,8 +379,10 @@ export default function Home() {
               location="Albany, New York"
               period="September 2024 - Present"
               description={[
-                "Engineered an Excel-based automated grading pipeline with dynamic visualizations, streamlining coursework evaluation for 500+ students across HCI, DBMS, Data Structures, and Intro to Computing, significantly improving grading efficiency.",
-                "Developed a student performance tracking system that leveraged real-time analytics to monitor engagement and academic progress, enabling targeted interventions through 50+ one-on-one sessions and enhancing learning outcomes.",
+                " Actively contributed to the review and restructuring of the county’s IT governance policies, focusing on enhancing data management frameworks in alignment with NIST and ISO security standards.",
+                "Engineered secure SFTP-based data transfer systems to facilitate controlled inter-agency data exchange, resulting in a 60% improvement in transfer speed and reduced risk of protocol violations.",
+                "Played a key role in orchestrating cross-departmental collaboration involving cybersecurity, GIS, and compliance teams, promoting unified data handling procedures and audit-ready traceability.",
+                "Proposed and simulated a strategic data infrastructure roadmap for transitioning to a cloud-native environment using AWS services (S3, Glue, Lambda Redshift), enabling centralized access, cost optimization, and scalable analytics solutions.",
                 "Contributing to IT Policies Review Project evaluating and enhancing data management policies, ensuring compliance with security and privacy regulations.",
                 "Collaboration with IT teams to optimize data architectures, support data pipeline design, and integrate best practices in data governance.",
               ]}
