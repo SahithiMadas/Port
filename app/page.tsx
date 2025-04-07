@@ -86,7 +86,7 @@ export default function Home() {
                   </Button>
                 </Link>
 
-                <Link href="https://sahithim.netlify.app/acp-p1-certificate.pdf" target="_blank" rel="noopener noreferrer">
+                <Link href="https://sahithim.netlify.app/sahithi-resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Button className="rounded-full bg-gradient-to-r from-purple-500 to-blue-500 text-white hover:from-purple-600 hover:to-blue-600">
                   <svg
                     className="mr-2 h-4 w-4"
