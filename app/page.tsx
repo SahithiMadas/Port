@@ -409,10 +409,11 @@ export default function Home() {
               location="Albany, New York"
               period="February 2024 - Present"
               description={[
-                "Developed an Automated Procurement Optimization System, leveraging data-driven vendor analysis to reduce costs by 20%, integrating Power BI insights to streamline supplier selection and enhance financial decision-making.",
-                "Engineered a Dynamic Academic Workflow Intelligence Dashboard, automating 1,000+ MIS data entries, improving operational efficiency by 45%, and optimizing academic process tracking with real-time Power BI visualizations.",
-                "Designed a Data-Driven Performance Monitoring Framework, utilizing predictive analytics to enhance institutional decision-making, reducing workflow bottlenecks by 30%, enabling proactive academic resource allocation.",
-                "Provided dedicated support for creative and diverse projects, with Python (Pandas, Dask, PySpark) use case Projects for Data Analysis using VR Project.",
+                "Provide dedicated support for creative and diverse projects, offering guidance in academics  guidance, and fostering AI & Data Visualization tools to enhance Digital Scholarship initiatives within the academic community.",
+                "Delivered comprehensive analytics support by designing interactive dashboards in Tableau and Power BI to assess institutional resource usage across digital services and research domains.",
+                "Automated data collection and preprocessing routines using Python and R for various academic departments, enabling efficient generation of summary reports and comparative insights.",
+                "Developed a VR-based spatial analytics prototype using Unity and C#, integrating 3D models and data layers to support immersive exploration for academic research purposes.",
+                "Provided technical consultations and conducted one-on-one mentoring sessions with students, elevating the university community’s capability in visual storytelling and data literacy.",
               ]}
               index={2}
             />
