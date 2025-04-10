@@ -158,7 +158,7 @@ export default function Home() {
             <SectionTransition delay={0.4}>
               <StatCard
                 icon={<Award className="h-6 w-6 text-purple-500" />}
-                count={7}
+                count={8}
                 title="CERTIFICATES"
                 description="Professional skills validated"
                 href="#certificates"
