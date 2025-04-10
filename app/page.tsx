@@ -560,7 +560,7 @@ export default function Home() {
             />
 
             <CertificateCard
-              title="AWS Serverless Knowledge Assessment Badge"
+              title="AWS Serverless Assessment Badge"
               issuer="AWS"
               date="April 2025"
               link="https://sahithim.netlify.app/aws_serverless_badge.pdf"
