@@ -441,6 +441,19 @@ export default function Home() {
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <ProjectCard
+              title="Life Expectancy Simulator via Thresholding Robust Regression"
+              description={[
+                "Developed a Torrent FC-driven robust regression model for life expectancy prediction, designed to simulate reliable health outcomes while filtering distortive influences from noisy data.",
+                "Achieved a 28% performance gain over conventional linear regression models by stabilizing prediction flows and limiting error propagation from extreme-value contries and underreported entries.",
+                "Introduced a custom thresholding mechanism to identify and suppress outliers by monitoring statistical deviations across healthcare indicators, ensuring the model's focus remained on representative population dynamics.",
+                "Employed multi-stage filtering, IQR-based outlier detection, and iterative refinement loops to maintain dataset integrity while preserving influenctial, high-variance features critical to health forecasting.",
+              ]}
+              technologies={["Python", "Machine Learning", "PySpark", "Pandas", "Random Forest", "ETL"]}
+              index={0}
+            />
+
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <ProjectCard
               title="AutoPrice Predictor"
               description={[
                 "Built a predictive analytics tool for used cars resale prices with high-precision Regression model using achieving 79.20% test accuracy.",
@@ -448,7 +461,7 @@ export default function Home() {
                 "Implemented multiple regression models (Linear Regression, Ridge Regression, Random Forest) for dynamic valuation of used cars.",
               ]}
               technologies={["Python", "Machine Learning", "PySpark", "Pandas", "Random Forest", "ETL"]}
-              index={0}
+              index={1}
             />
 
             <ProjectCard
@@ -465,7 +478,7 @@ export default function Home() {
                 "Random Forest",
                 "Data Visualization",
               ]}
-              index={1}
+              index={2}
             />
 
             <ProjectCard
@@ -475,7 +488,7 @@ export default function Home() {
                 "Optimised model accuracy, validated results and addressed real-time implementation challenges, contributing to the field of Computer Vision for automation.",
               ]}
               technologies={["Python", "Computer Vision", "CNN", "Image Processing", "Machine Learning"]}
-              index={2}
+              index={3}
             />
 
             <ProjectCard
@@ -486,7 +499,7 @@ export default function Home() {
                 "Implemented user-friendly interfaces and secure data management systems for local government operations.",
               ]}
               technologies={["HTML", "CSS", "JavaScript", "Python", "Database Management", "Web Development"]}
-              index={3}
+              index={4}
             />
           </div>
         </div>
