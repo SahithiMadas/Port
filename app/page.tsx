@@ -448,7 +448,7 @@ export default function Home() {
                 "Introduced a custom thresholding mechanism to identify and suppress outliers by monitoring statistical deviations across healthcare indicators, ensuring the model's focus remained on representative population dynamics.",
                 "Employed multi-stage filtering, IQR-based outlier detection, and iterative refinement loops to maintain dataset integrity while preserving influenctial, high-variance features critical to health forecasting.",
               ]}
-              technologies={["Python", "Machine Learning", "PySpark", "Pandas", "Random Forest", "ETL"]}
+              technologies={["Python", "Machine Learning", "Outlier Detection", "NumPy", "Pandas", "IQR", "Torrent Regression", "Thresholding Techniques", "Jupyter Notebook", "Matplotlib", "Seaborn", "Plotly", "Scikit-learn", "Robust Regression"]}
               index={0}
             />
 
