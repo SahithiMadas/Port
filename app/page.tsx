@@ -547,11 +547,19 @@ export default function Home() {
             />
 
             <CertificateCard
+              title="AWS Serverless Knowledge Assessment Badge"
+              issuer="AWS"
+              date="April 2025"
+              link="https://sahithim.netlify.app/aws_serverless_badge.pdf"
+              index={6}
+            />
+
+            <CertificateCard
               title="Introduction to Machine Learning"
               issuer="AWS"
               date="April 2024"
               link="https://sahithim.netlify.app/Intro-ML-AWS-Certificate.pdf"
-              index={6}
+              index={7}
             />
           </div>
         </div>
