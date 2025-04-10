@@ -452,7 +452,6 @@ export default function Home() {
               index={0}
             />
 
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             <ProjectCard
               title="AutoPrice Predictor"
               description={[
