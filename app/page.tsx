@@ -317,7 +317,7 @@ export default function Home() {
 
             <SkillCard
               category="Web Development"
-              skills={[{ name: "React" }, { name: "Angular" }, { name: "Node.js" }, { name: "D3.js" }]}
+              skills={[{ name: "React" }, { name: "Angular" }, { name: "Node.js" }, { name: "D3.js" }, { name: "Flask" }, { name: "Django" }]}
               index={2}
             />
 
