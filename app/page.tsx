@@ -168,7 +168,7 @@ export default function Home() {
             <SectionTransition delay={0.5}>
               <StatCard
                 icon={<Briefcase className="h-6 w-6 text-pink-500" />}
-                count={2}
+                count={2+}
                 title="YEARS OF EXPERIENCE"
                 description="Continuous learning journey"
                 href="#experience"
