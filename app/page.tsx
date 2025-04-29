@@ -168,7 +168,7 @@ export default function Home() {
             <SectionTransition delay={0.5}>
               <StatCard
                 icon={<Briefcase className="h-6 w-6 text-pink-500" />}
-                count={2+}
+                count={2.5}
                 title="YEARS OF EXPERIENCE"
                 description="Continuous learning journey"
                 href="#experience"
@@ -223,11 +223,9 @@ export default function Home() {
                   <p className="text-sm font-medium text-foreground mb-3">Roles & Achievements:</p>
                   <ul className="ml-5 list-disc space-y-1 text-muted-foreground">
                     <li className="text-sm">Graduate Fellow at Albany County Local Government</li>
-                    <li className="text-sm">
-                      Graduate Student Assistant at University Libraries, Digital Scholarship Lab
-                    </li>
+                    <li className="text-sm">Graduate Student Assistant at University Libraries, Digital Scholarship Lab</li>
                     <li className="text-sm">Student Advisory Board Member, University Library</li>
-                    <li className="text-sm">Member, UAlbanyGO</li>
+                    <li className="text-sm">Presenter at UAlbany Showcase 2025</li>
                     <li className="text-sm">Dean's Merit Scholarship</li>
                   </ul>
                 </div>
