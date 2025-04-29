@@ -127,7 +127,7 @@ export default function Home() {
             </SectionTransition>
 
             <SectionTransition className="md:col-span-2" delay={0.2}>
-              <div className="space-y-4 text-justify">
+              <div className="space-y-4">
                 <p className="text-muted-foreground">
                   I'm a Data Engineer Intern at Albany County Local Government pursuing my Master's in Data Science at
                   the University at Albany, SUNY. My passion lies in building robust data pipelines and creating
