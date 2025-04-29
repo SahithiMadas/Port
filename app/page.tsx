@@ -560,7 +560,7 @@ export default function Home() {
               title="AWS Serverless Assessment Badge"
               issuer="AWS"
               date="April 2025"
-              link="https://sahithim.netlify.app/aws_serverless_badge.pdf"
+              link="https://www.credly.com/badges/76213bd3-c466-4392-a552-2b8bf1e9c30f/"
               index={6}
             />
 
