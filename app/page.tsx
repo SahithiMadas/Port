@@ -324,11 +324,11 @@ export default function Home() {
             <SkillCard
               category="Software Tools & IDE"
               skills={[
-                { name: "Cursor AI" },
                 { name: "Oracle Cloud Infrastructure" },
                 { name: "AWS" },
                 { name: "Kubernetes" },
                 { name: "Docker" },
+                { name: "Apache AirFlow" }
                 { name: "Terraform" },
                 { name: "Helm" },
                 { name: "API Gateway" },
@@ -336,6 +336,7 @@ export default function Home() {
                 { name: "Power BI" },
                 { name: "Tableau" },
                 { name: "Microsoft Excel" },
+                { name: "Cursor AI" },
               ]}
               index={3}
             />
