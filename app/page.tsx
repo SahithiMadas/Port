@@ -117,7 +117,7 @@ export default function Home() {
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500 to-pink-500 blur-md transform translate-x-2 translate-y-2" />
                 <div className="absolute inset-0 rounded-xl border-2 border-background" />
                 <img
-                  src="/port-photo.jpg"
+                  src="/IMG_.jpg"
                   alt="Sahithi Madas"
                   width={400}
                   height={400}
